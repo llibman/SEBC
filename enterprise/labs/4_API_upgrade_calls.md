@@ -44,7 +44,8 @@ Enter host password for user 'llibman':
 * Report the database server in use by CM
 
 ```
-$ curl -u llibman:cloudera http://54.206.92.109:7180/api/v16/cm/scmDbInfo
+$ curl -u llibman http://54.206.92.109:7180/api/v16/cm/scmDbInfo
+Enter host password for user 'llibman':
 {
   "scmDbType" : "MYSQL",
   "embeddedDbUsed" : false
