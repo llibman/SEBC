@@ -61,3 +61,17 @@ Could not contact CDS load balancer rhui2-cds01.ap-southeast-2.aws.ce.redhat.com
 Could not contact any CDS load balancers: rhui2-cds01.ap-southeast-2.aws.ce.redhat.com, rhui2-cds02.ap-southeast-2.aws.ce.redhat.com.
 
 ```
+
+* /etc/passwd entries for `cate` and `jemaine`:
+
+```
+cate:x:2300:2300::/home/cate:/bin/bash
+jemaine:x:2900:2900::/home/jemaine:/bin/bash
+```
+
+* /etc/group entries for `kiwis` and `aussies`:
+
+```
+kiwis:x:2901:jemaine
+aussies:x:2902:cate
+```
