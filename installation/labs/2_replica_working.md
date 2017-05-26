@@ -1,3 +1,4 @@
+```
 [MariaDB [(none)]> show slave status \G
 *************************** 1. row ***************************<br>
                Slave_IO_State: Waiting for master to send event<br>
@@ -42,3 +43,4 @@ Master_SSL_Verify_Server_Cert: No<br>
              Master_Server_Id: 1<br>
 1 row in set (0.00 sec)<br>
 <br>
+```
